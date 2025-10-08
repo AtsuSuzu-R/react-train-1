@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import ShoppingList from "./ShoppingList";
+import Clicker from "./Clicker";
 
 const data = [
   { id: 1, item: "卵", quantity: 12, completed: false },
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+      <Clicker message="こんにちは" buttonText="クリックしてください" />
       <ShoppingList items={data} />
     </>
   );
