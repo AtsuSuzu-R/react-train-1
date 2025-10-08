@@ -16,13 +16,7 @@ const data = [
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <Toggler />
-      {/* <Clicker message="こんにちは" buttonText="クリックしてください" /> */}
-      {/* <ShoppingList items={data} /> */}
-    </>
-  );
+  return <></>;
 }
 
 export default App;
