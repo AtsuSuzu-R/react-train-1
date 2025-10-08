@@ -5,18 +5,32 @@ import "./App.css";
 import ShoppingList from "./ShoppingList";
 import Clicker from "./Clicker";
 import Toggler from "./Toggler";
+import ColorBox from "./ColorBox";
+import ColorBoxGrid from "./ColorBoxGrid";
 
-const data = [
-  { id: 1, item: "卵", quantity: 12, completed: false },
-  { id: 2, item: "牛乳", quantity: 1, completed: true },
-  { id: 3, item: "さんま", quantity: 4, completed: false },
-  { id: 4, item: "納豆", quantity: 2, completed: true },
+const colors = [
+  "#009284ff",
+  "#00880bff",
+  "#928400ff",
+  "#0c9200ff",
+  "#002292ff",
+  "#5d0092ff",
+  "#920086ff",
+  "#920066ff",
+  "#920018ff",
+  "#229200ff",
+  "#920a00ff",
+  "#009284ff",
 ];
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <></>;
+  return (
+    <>
+      <ColorBoxGrid colors={colors} />
+    </>
+  );
 }
 
 export default App;
