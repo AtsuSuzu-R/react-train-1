@@ -10,17 +10,17 @@ import ColorBoxGrid from "./ColorBoxGrid";
 
 const colors = [
   "#009284ff",
-  "#00880bff",
-  "#928400ff",
-  "#0c9200ff",
-  "#002292ff",
-  "#5d0092ff",
-  "#920086ff",
-  "#920066ff",
-  "#920018ff",
-  "#229200ff",
-  "#920a00ff",
-  "#009284ff",
+  "#283d2aff",
+  "#fff06aff",
+  "#2a8063ff",
+  "#314ba1ff",
+  "#733299ff",
+  "#ac43a3ff",
+  "#f06e9fff",
+  "#8cd5e7ff",
+  "#69ff3cff",
+  "#ec665cff",
+  "#00ffe5ff",
 ];
 
 function App() {

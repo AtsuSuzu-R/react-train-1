@@ -1,0 +1,7 @@
+.gridColor {
+  width: 500px;
+  height: 500px;
+  border: 1px solid rgb(39, 37, 37);
+  display: flex;
+  flex-wrap: wrap;
+}
